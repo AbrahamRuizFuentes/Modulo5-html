@@ -1,0 +1,45 @@
+
+/* body es una etiqueta para configurar el cuerpo de la pagina ne general*/
+body {background-color: black;
+    background-image: url("fotos/bg_02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;}
+
+
+    /* div es una etiqueta que crea una caja*/
+div{width: 820px;
+    height: 2000px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto ;}
+
+    /* esto es mi header*/
+header {width: 820px;
+    height: 125px;
+    background-color: black;}
+ 
+ 
+    /* Estos son los links del nav ubicados en el header  */
+header nav a {color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-bottom: yellow 10px solid;
+        margin-right: 5px;
+        padding-right: 10px;
+        transition: 3s;}
+
+    /*Este es el nav del header*/
+header nav {background-color: black;}
+
+    /* esto son los links que al posicionar el mouse cambia de color*/
+header nav a:hover {color: yellow;
+                    border-bottom: red 500px solid;}
+    
+    /* este es el nav ubicado despues de la imagen*/
+nav {width: 820px;
+    height: 32px;
+    background-color: #2c2c2c;}
+
+    
+

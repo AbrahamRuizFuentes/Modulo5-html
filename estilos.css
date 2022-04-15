@@ -1,0 +1,40 @@
+h1 {color :aquamarine}
+
+/* esto es una comentario */ 
+
+h2 {color :rgb(235, 224, 233)}
+
+h3 {color: orange 
+    ;}
+
+    img{border: 5px red;}
+
+    font-family: 'Ubuntu', sans-serif;
+
+    p {color: violet;}
+    .parrafo1 {color: blue;}   /* esto es una selctor de clase, es un atriburo en partricular que se llama con el cla*/
+
+
+    body{background-color: bisque;}
+
+    body {
+        margin: 0px;
+        }
+        header {
+        width: 900px;
+        height: 100px;
+        background-color: aquamarine;
+        }
+        nav {
+        width: 300px;
+        height: 40px;
+        background-color: cadetblue;
+        }
+        a {
+        color: white;
+        background-color: black;
+        }
+        header nav a {
+        color: yellow;
+        background-color: black;
+        }

@@ -1,0 +1,105 @@
+/*
+Autor: Abraham Ruiz
+Correo:
+-Vinculos y colores de fondo footer : #3b2211;
+-color de texto:#707070;
+*/
+
+/*
+selector de estilos de etiqueta
+selector de estilos de clase .
+selector de estilos de ID #
+*/
+
+html * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; /*Tamaño de base*/
+    color: #707070; /*Color de base*/
+    }
+h1 {font-size: 2em; /*2x15=30px*/
+    }
+h2 {font-size: 1.5em; /*1.5x15=22.5px*/
+    }
+h3 {font-size: 2em; /*1x15=15px*/
+    }
+p {line-height: 2em;
+    }
+/*pseudo clases o selctores contextules estiqueta: selector o estado */
+a:link {color: #3b2211;} /*Estado de reposo*/
+a:hover {color: #de820f;} /*estado sobre*/
+
+/*Estilo para la cabecera*/
+.cabecera {
+    /*propiedad-coordenada: grosor color tipo (dotted,double)*/
+    border-top: 10px #3b2211 solid;
+    /*padding-top: 2%;*/
+    padding-bottom: 2%;
+    background-color: #fff;
+}
+/*ejemlo de selctor de estilos ID para elementos unicos como por ejemlo el logotipo del sitio*/
+#logotipo {float: left;}
+/*estilo para la barra de navegación*/
+.navbar {float: right;}
+.clearfix   {
+    clear: both;
+            }
+/* para que los vinculos de la barra de navegación se despliegen en horizontal, definir un nuevo selector en la hoja para que los elementos de la lista <li> contenido en la barra de navegación <nav class="navbar"> se desplieguen como inline-block o inline.
+selector padre (contenedor) selector hijo anidado*/
+.navbar li{
+    display: inline-block; /*el elemento se transforma en bloque con propiedades de linea otra alternativa para columnas pero deja un amrgen adicional*/
+    list-style: none; /*quita viñetas*/
+         }
+.navbar a {
+    display: block; /*la etqueta a se transforma en bloque*/
+    padding: 10px; /*al ser bloque se aplica el relleno*/
+    text-decoration: none; /*quita subrayado de a*/
+}
+/*hacer animación cuando el puntero esta sobre  el menu Inicio carta reservas*/
+.navbar a:hover {
+    background-color:#3b2211; /*aplicando color de fondo*/
+    color:#fff; /*color de texto*/
+}
+.banner {
+    background-image: url("../images/fondo.jpg");
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.titulo_principal {
+    text-align: center;
+    border-bottom: 2%;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+.carta {
+    background-color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.restorant {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.pie {
+    background-color: #3b2211;
+    color: #fff;
+    text-align: center;
+    padding: 3%;
+}
+.img-responsiva {
+    width: 100%;
+    height: auto;
+    max-width: 540px;
+}
+.contenedor {
+        margin: auto;
+        max-width: 576px;
+}

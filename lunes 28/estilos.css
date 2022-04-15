@@ -1,0 +1,7 @@
+.contenedor {background-color: aquamarine;
+    
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
+            flex-wrap: nowrap;
+}

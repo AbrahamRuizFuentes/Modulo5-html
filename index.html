@@ -1,0 +1,143 @@
+<!-- doctype permite que mi navegador no vaya en bucle-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mi Primera hola Página  </title>
+
+        <link rel="stylesheet" href="estilos.css"><!-- para llamar al formato definido en CSS, con link llamamos a la hoja de estilo -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <h1>Encabezado 01</h1>
+        <p>hola hola coca cola</p>
+        <h2>Encabezado 02</h2>
+        <h3><mark>Encabezado 03</mark></h3>
+
+        <h3>encabezado de prueba css</h3>
+        <h4>Encabezado 04</h4>
+        <br><br><br><br>
+        <h5>Encabezado 05</h5>
+        <h6>Encabezado 06</h6>
+        <p>There are many variations of passages of <b> Lorem Ipsum</b> available, <b>  but the majority </b>  have suffered alteration in some form, <strong> by injected humour</strong> , or randomised words which don't look even slightly believable. <i> If you are going to use a passage of Lorem Ipsum</i>, you need to be sure there isn't anything embarrassing <em>hidden in the middle of text</em> . All the Lorem Ipsum <small>generators on the Internet</small>  tend to repeat <del>predefined chunks as necessary</del> , making this the <b>true generator</b> first  <ins>on the Internet</ins> . It uses a dictionary of <sub>over 200 Latin words</sub> , combined with a handful of model sentence structures, to generate <sup> <mark>   Lorem Ipsum which looks reasonable    </mark> </sup> . The generated Lorem Ipsum is therefore always free from repetition, injected humour, <i></i> or non-characteristic words etc.</p>
+
+        <img src="imagen/avion.jpg" width="500" alt=""><!--Imagen source ancho y alternativo-->
+        <br>
+        <a href="https://mail.google.com/mail/u/0/#inbox">  ir al correo </a> 
+        
+        <h1>Este es mi video</h1>
+        <a href="avion.mp4">Acá esta el video</a>
+        
+        <!--Esto es una lista ordenada -->
+
+        <ol type="a">
+             <li> Azúcar</li>
+             <li>Harina</li>
+             <li>canela</li>
+
+
+        </ol>
+
+        <ul>
+             <li> Azúcar</li>
+             <li>Harina</li>
+             <li><a href="#">canela </a> </li>
+        </ul>
+
+        <!-- esto es una lista de descripción-->
+
+        <h3>Mi lista de descripción</h3>
+
+        <dl>
+            <dt>Tipo de café</dt>
+            <dd>- Café de grano</dd>
+            <dd>- Café molido</dd>
+            <dd>- Café arábico</dd>
+        </dl>
+        <!-- esto es una lista anidada-->
+
+        <h2>Productos anidados</h2>
+        <br>
+        <ul>
+            <li>Té</li>
+            <li>Café</li>
+               <ul>
+                  <li>Cortado</li>
+                  <li>Late</li>
+                  <li>capuccino</li>
+                  <li>Dilmah</li>
+                </ul>
+
+        </ul>
+
+        <hr> <!-- etique ta horizontal para pasar a otra sección-->
+
+        <ol>
+            <li>Un delfin es un mamimero</li>
+            <ol type="a">
+                <li>Verdadero</li>
+                <li>Falso</li>
+            </ol>
+
+
+        </ol>
+
+        <hr> <!--pegar desde compartir en YT, se compia todo el enlace y de pega -->
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/87_1W4P1F2A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <hr>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49800.18801288498!2d-72.63774035510471!3d-38.72901731828959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9614d3cec21a2223%3A0xc2fa8887ff008408!2sTemuco%2C%20Araucan%C3%ADa!5e0!3m2!1ses-419!2scl!4v1647698599802!5m2!1ses-419!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+        <hr>
+
+        <video width="500" height="" controls autoplay muted>
+
+            <source src="avion.mp4" type="video/mp4">
+    
+        </video>
+
+<!--css hojas de estilo-->
+    
+
+
+    </body>
+</html>
+<!-- aqui finaliza mi archivo html
+
+    <!--esto es una tabla-->
+<table>
+    <!--TR table row filas-->
+    <tr>
+    <!--TD celda-->
+    <td>Celda 1</td>
+    <td>Celda 2</td>
+    <td>Celda 3</td>
+    </tr>
+
+    <br><br><br>
+    <tr>
+    <!--TD table data celda-->
+    <td>Celda 4</td>
+    <td>Celda 5</td>
+    <td>Celda 6</td>
+    </tr>
+    </table>
+
+    <!-- esto es paarafo uno, que utiliza la clase parrafo1. con el comando span puedo alicar una clase a una parte del parrafo -->
+
+    <p class="parrafo1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+
+    <!--ESto es parrafo 2-->
+    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+    <!--ESto es parrafo 3-->
+
+    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
